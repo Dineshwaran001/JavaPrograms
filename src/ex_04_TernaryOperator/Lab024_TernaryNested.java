@@ -1,6 +1,6 @@
 package ex_04_TernaryOperator;
 
-public class Lab_024_TernaryNested {
+public class Lab024_TernaryNested {
     public static void main(String[] args) {
         int number =25;
                     //condition   expression1yes nested                    expression1 continueB
