@@ -12,5 +12,8 @@ public class Task07_UserInputEvenOrOdd {
         }else {
             System.out.println("It is odd");
         }
+        scan.close(); // when you finished you should close the Scanner
+        // if you dont garbage collector will close the Scanner
+        //in the end only you should close the scanner not between
     }
 }

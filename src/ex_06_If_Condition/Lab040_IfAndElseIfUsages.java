@@ -15,6 +15,5 @@ public class Lab040_IfAndElseIfUsages {
              System.out.println("You cannot allowed until you are 19");
          }
 
-
     }
 }

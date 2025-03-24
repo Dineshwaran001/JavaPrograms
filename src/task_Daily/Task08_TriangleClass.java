@@ -15,7 +15,7 @@ public class Task08_TriangleClass {
             System.out.println("it is Equilateral Triangle");
         } else if (triangleLeft!=triangleRight && triangleLeft==triangleBelow) {
             System.out.println("It is Isoceles  Triangle");
-        } else if(triangleLeft!=triangleBelow && triangleRight==triangleLeft){
+        } else if(triangleLeft != triangleBelow && triangleRight==triangleLeft){
             System.out.println("It is Isoceles Triangle");
         } else  {
             System.out.println("it is scalene Triangle");
