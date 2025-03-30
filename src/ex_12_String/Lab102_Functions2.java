@@ -7,8 +7,8 @@ public class Lab102_Functions2 {
         System.out.println(name.trim());// this will trim the space
         String str = "waran";
         System.out.println(str.compareTo("waran"));// it will return integer value 0 or some thing not true or false
-
+       //true shown as 0
         System.out.println(str.compareTo("Waran"));
-        //they will compare with Unicode w->119 - W->87 thats why 32 is shown
+        //they will compare with Unicode w->119 -minus W->87 thats why 32 is shown
     }
 }
