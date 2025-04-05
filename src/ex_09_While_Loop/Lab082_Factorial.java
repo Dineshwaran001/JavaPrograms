@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Lab082_Factorial {
     public static void main(String[] args) {
-////        Scanner scan = new Scanner(System.in);
-////        System.out.println("Enter the factorial number you want output");
+//       Scanner scan = new Scanner(System.in);
+//        System.out.println("Enter the factorial number you want output");
 //        int number= scan.nextInt();
         int number =5;
         int factorial = 1;
