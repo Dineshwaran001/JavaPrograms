@@ -11,6 +11,7 @@ after_mainMethod(); //calling the method or functions
     }
 
     static void after_mainMethod(){
+
         System.out.println("this is written after main method");
     }
 }

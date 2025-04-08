@@ -8,7 +8,7 @@ public class Task13_Array_SecondLargest {
         for (int i = 0; i <value.length ; i++) {
             if (value[i]>max){
                 max=value[i];
-                secondLargest= value[value.length-2];// length-2 will print second largest
+                secondLargest= value[value.length-3];// length-2 will print second largest
                 //array index is 0 to 4
                 //array length is 5 if you give -1 then it will 5-1 =4 first largest will print
                 //length-2 will print second largest
