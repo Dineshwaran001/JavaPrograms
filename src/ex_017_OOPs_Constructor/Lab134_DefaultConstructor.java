@@ -1,4 +1,4 @@
-package ex_017_Constructor;
+package ex_017_OOPs_Constructor;
 
 public class Lab134_DefaultConstructor {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_016_OOPs;
+package ex_016_OOPs_Class_Object;
 
 public class Class_IQ2 { // public
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ex_016_OOPs;
+package ex_016_OOPs_Class_Object;
 
 public class Lab131_Class {
     public static void main(String[] args) {

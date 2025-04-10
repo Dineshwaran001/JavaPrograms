@@ -1,4 +1,4 @@
-package ex_016_OOPs;
+package ex_016_OOPs_Class_Object;
 
 public class Lab132_Object_Cat {
     public static void main(String[] args) {

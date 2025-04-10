@@ -1,4 +1,4 @@
-package ex_017_Constructor;
+package ex_017_OOPs_Constructor;
 
 public class Lab136_Eg_DC {
     public static void main(String[] args) {
