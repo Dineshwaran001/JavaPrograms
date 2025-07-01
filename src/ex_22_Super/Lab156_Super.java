@@ -3,8 +3,8 @@ package ex_22_Super;
 public class Lab156_Super {
     public static void main(String[] args) {
         Car c = new Car();
-        c.display();
-        Car c2 = new Car(10);
+        c.display();// in this display method we call parent class
+        Car c2 = new Car(10);// passing contructor value car
         System.out.println(c2.wheel);
 
     }
@@ -17,7 +17,7 @@ int wheel;
     }
      Vehicle(int wheel) {
         this.wheel=12;
-         System.out.println("Param Constructor--> in parent class");
+         System.out.println("Param Constructor--> in parent class"+ this.wheel);
     }
     // below two are method overloading same method name diff argument
     void method(){
@@ -39,8 +39,9 @@ private int max_speed = 200;
          }
          Car(int wheel){
 
-           super(1);// thos will execute parent
-             System.out.println(this.wheel); // this refers to current object
+           super(5);// thos will execute parent
+             this.wheel= wheel;// if you comment this it will only call super otherwise this
+//             System.out.println("THis wheel"+this.wheel); // this refers to current object
          }
          // we are overriding method display here
     @Override
@@ -49,7 +50,7 @@ private int max_speed = 200;
         System.out.println(super.max_speed); // super is refer to the Parent class
         super.display();// parent display method
         super.method();
-        super.method();
+
 
     }
 
