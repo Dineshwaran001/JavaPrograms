@@ -11,5 +11,6 @@ public class Lab009_UnaryOperator {
 
         int c = -1;
         c= c + 1;  // c value is -1 and here we add +1 (+1 -1= 0 will the answer)
+        System.out.println(c);
     }
 }

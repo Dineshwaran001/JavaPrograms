@@ -2,6 +2,7 @@ package ex_27_Enum;
 
 public class Lab171_enum_Connection_Previous {
     public static void main(String[] args) {
+        //                        enum name  /dot /locator /
         System.out.println(Lab170_Enum_Locator_Eg.page_Button.getLocators());// Lab170
         System.out.println(Lab170_Enum_Locator_Eg.page_Login.getLocators());// Lab170
         System.out.println(Lab172_Enum2_Colors.RED.getHexCode());// Lab172
