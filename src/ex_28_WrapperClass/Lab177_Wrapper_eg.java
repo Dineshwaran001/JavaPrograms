@@ -1,16 +1,54 @@
+package ex_28_Wrapper_Class;
+
+
 public class Lab177_Wrapper_eg {
-}
-class Mobile{
 
 
-    private Integer no;
+    public static void main(String[] args) {
+        Mobile iphone = new Mobile(1, "iphone 16",120000.00);
+        Mobile samsung = new Mobile(2, "ultra 24",1350000.00);
 
-    public Integer getNo() {
-        return no;
+        iphone.setPrice(200000.89);
+        iphone.display();
+        samsung.display();
+
+        System.out.println(Mobile.mobile_carrier);
+        Mobile.switchOnAirplaneMode();
+
     }
 
-    public void setNo(Integer no) {
-        this.no = no;
+
+}
+
+class Mobile extends OldPhone{
+    private Integer phone;
+    private String name;
+    private Double price;
+    static String mobile_carrier = "airtel";
+
+
+    Mobile(){
+        System.out.println("DC");
+    }
+
+    public Mobile(Integer phone, String name, Double price) {
+        this.phone = phone;
+        this.name = name;
+        this.price = price;
+    }
+
+    void display(){
+        System.out.println(this.name+this.phone+this
+                .price);
+    }
+
+
+    public Integer getPhone() {
+        return phone;
+    }
+
+    public void setPhone(Integer phone) {
+        this.phone = phone;
     }
 
     public String getName() {
@@ -29,14 +67,36 @@ class Mobile{
         this.price = price;
     }
 
-    private String name;
-    private Double price;
+    static void switchOnAirplaneMode(){
+        System.out.println("Common Airplane Mode");
+    }
+
+    void priceChange(Integer price){
+        System.out.println("Change price in Integers");
+    }
+    void priceChange(Double price){
+        System.out.println("Change price in decimals");
+    }
+
+    @Override
+    void calling(){
+        System.out.println("dialpad ->touch dialpad now!!");
+    }
+
 }
-Mobile(){
-    System.out.println("DC");
+
+class OldPhone implements SIMCard{
+
+    void calling(){
+        System.out.println("dialpad");
+    }
+
+    @Override
+    public void enterCard() {
+        System.out.println("Card entered");
+    }
 }
-public Mobile(Integer no, String name, Double price) {
-    this.no = no;
-    this.name = name;
-    this.price = price;
+
+interface SIMCard{
+    void enterCard();
 }

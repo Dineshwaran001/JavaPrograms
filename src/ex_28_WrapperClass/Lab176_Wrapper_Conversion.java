@@ -1,7 +1,7 @@
 package ex_28_WrapperClass;
 
 public class Lab176_Wrapper_Conversion {
-    public static void main() {
+    public static void main(String[] args) {
 
         String num = "10"; // convert this into int
 
