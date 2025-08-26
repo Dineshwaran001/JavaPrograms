@@ -20,7 +20,7 @@ public class Lab011_RelationalOperators {
 
         int votingAge =18;
         int your_age= 16;
-        System.out.println(your_age>=votingAge);// this will return flase because 16 not equal or grater than to 18.
+        System.out.println(your_age>=votingAge);// this will return false because 16 not equal or grater than to 18.
 
         int a_votingAge =18;
         int b_yourage = 19;

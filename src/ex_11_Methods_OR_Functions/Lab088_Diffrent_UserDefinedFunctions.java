@@ -6,7 +6,7 @@ public class Lab088_Diffrent_UserDefinedFunctions {
 
         wopwor1(); // we cannot assign it to a value only we can call it--> void
 
- // 2.without Argument/Parameters and with return type
+  // 2.without Argument/Parameters and with return type
         //wop_wr2(); // this will print only inside this functions
         String result_of_wop_wr2= wop_wr2();// this will store wop_wr2 function value in result_of_wop_wr2 variable
         System.out.println(result_of_wop_wr2);// if you print you will see the result

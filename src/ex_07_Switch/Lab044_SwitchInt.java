@@ -6,9 +6,9 @@ public class Lab044_SwitchInt {
         switch (a){
             // it will execute but no output
             //it is a valid syntax
-            /*case 10:
+            case 10:
                 System.out.println("b");
-                break;*/
+                break;
         }
     }
 }
